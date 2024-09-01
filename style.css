@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+        html, body {
+            height: 100%;
+            width: 100%;
+            font-family: "Roboto Condensed", sans-serif;
+            background-image: url('https://assets.lastdodo.com/image/ld_medium/plain/assets/catalog/assets/2014/1/29/e/7/2/pdf_e7276caa-88d0-11e3-85bd-1e1c5ef13f02.jpg');
+           
+            
+            background-size: cover;
+            
+            
+        }
+        .container {
+            width: 340px; 
+            background-color: #333; 
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+        }
+
+        .container h1 {
+            color: #fff; 
+            margin-top: 0;
+        }
+
+        .text-center {
+            color: #fff;
+            text-align: center;
+        }
+
+        .mx-auto {
+            margin: auto;
+        }
+
+        .button {
+            width: 66px;
+            padding: 18px;
+            margin: 0 3px;
+            border: 2px solid black;
+            border-radius: 9px;
+            cursor: pointer;
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .flex-col {
+            flex-direction: column;
+        }
+
+        .items-center {
+            align-items: center;
+        }
+
+        .row {
+            margin: 8px 0;
+        }
+
+        .row input {
+            width: 291px;
+            font-size: 20px;
+            margin: 0;
+            overflow: hidden;
+            padding: 20px 0px;
+            background-color: rgba(255, 249, 249, 0.664);
+            border: 2px solid black;
+            border-radius: 8px;
+        }
+        footer h1{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rgb(235, 228, 228);
+        }
